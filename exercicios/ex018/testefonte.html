@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de fonte Externas</title>
+    <style>
+        @font-face {
+            font-family: 'SnowyWinter';
+            src: url('fonts/SnowyWinter.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: lovecraft;
+            src: url('fonts/lovecraft.otf') format('opentype')
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;            
+        }
+        h1 {
+            font-family: 'SnowyWinter', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'lovecraft', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae minus ipsum magnam dicta blanditiis, porro voluptatibus suscipit eaque cum pariatur atque ipsa autem excepturi at, nobis, cupiditate ea accusamus alias!</p>
+    
+</body>
+</html>

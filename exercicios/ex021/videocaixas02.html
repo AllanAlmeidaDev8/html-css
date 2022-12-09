@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px;
+
+        }
+        
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        aside > p{
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header><!-- são div semanticas -->
+        <h1>Meu site</h1>
+        <nav><!-- menu -->
+            <a href="caixas02.html">Inicio</a>
+            
+
+        </nav>
+    </header>
+    <main><!-- são div semanticas -->
+        <section id="assuntos">
+            <p>Nessa página possue o video do que foi feito por todo site</p>
+
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Grouping Tags em HTML5</h2>
+                <p>Aprendi sobro colocação de div e como eram aplicadas pois agora com HTML5 existe um semantica para a remponsividade do site com os buscadores do mercado, existe tags como '< header>', '< main>''< footer>' </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JPMm-jyKOaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2>Colocando Sombras</h2>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/JACiDRNWjjQ" title="Sombra nas Caixas - @Curso em Vídeo de HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                <h2>Caixas com vértices arredondados</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PGIrTzQqpqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2>Bordas decoradas</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n0rjAs_Im4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <aside>
+                    <p>Artigo sobre escrito pr Allan Santos</p>
+                </aside>
+            </article>
+            
+        </section>
+    </main>
+    <footer><!-- são div semanticas -->
+            Desenvolvido por Allan para o Cursoemvideo
+    </footer>
+    <footer>
+        <p>Clique no botão para ver o a costrução dessa página  
+    </footer>
+</body>
+</html>
