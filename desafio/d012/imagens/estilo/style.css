@@ -63,6 +63,10 @@ section.imagem > p {
     display: inline-block ;
     background-color: black;
 }
+
+section > p{
+    padding-bottom: 2em;
+}
 footer{
     text-align: center;
     color: white;
@@ -77,4 +81,13 @@ footer{
     background-color: rgb(31, 30, 30);
     color: white;
 
+}
+
+section#img001{
+    
+
+}
+
+section#img002{
+    
 }
